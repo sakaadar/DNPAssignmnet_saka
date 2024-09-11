@@ -21,7 +21,7 @@ public class PostInMemoryRepository: IPostRepository
     public Task UpdateAsync(Post post)
     {
        Post? existingPost = posts.SingleOrDefault(p=>p.Id==post.Id);
-       if (existingPost == null)
+       if (existingPost is null)
        {
            throw new InvalidOperationException(
                $"Post with ID '{post.Id}' does not exist");
