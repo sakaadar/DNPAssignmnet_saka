@@ -1,4 +1,4 @@
-﻿namespace Entities;
+﻿namespace Entities; //Comment Entity
 
 public class Comment
 {

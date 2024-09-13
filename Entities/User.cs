@@ -1,4 +1,4 @@
-﻿namespace Entities;
+﻿namespace Entities; //User Entity
 
 public class User
 {

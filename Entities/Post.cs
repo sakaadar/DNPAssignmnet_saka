@@ -1,4 +1,4 @@
-﻿namespace Entities;
+﻿namespace Entities; //Post Entity
 
 public class Post
 {
